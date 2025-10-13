@@ -1,0 +1,3 @@
+declare const loadingAtom: import("jotai").WritableAtom<boolean | Promise<boolean>, [boolean | typeof import("jotai/utils").RESET | Promise<boolean> | ((prev: boolean | Promise<boolean>) => boolean | typeof import("jotai/utils").RESET | Promise<boolean>)], Promise<void>>, useLoadingValue: () => boolean, useLoadingState: () => [boolean, (args_0: boolean | typeof import("jotai/utils").RESET | Promise<boolean> | ((prev: boolean | Promise<boolean>) => boolean | typeof import("jotai/utils").RESET | Promise<boolean>)) => Promise<void>];
+declare const useSetLoading: () => (val: boolean) => void;
+export { loadingAtom, useLoadingValue, useLoadingState, useSetLoading };
