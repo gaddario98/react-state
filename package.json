@@ -19,16 +19,16 @@
     "@types/react": "^19.2.0",
     "@types/rollup-plugin-peer-deps-external": "^2",
     "babel-plugin-react-compiler": "1.0.0",
-    "jotai": "^2.15.0",
     "fflate": "^0.8.2",
+    "jotai": "^2.15.0",
     "react": "^19.2.0",
     "rollup": "^4.40.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "jotai": "^2.15.0",
-    "fflate": "^0.8.2"
+    "fflate": "^0.8.2",
+    "jotai": "^2.15.0"
   },
   "peerDependencies": {
     "react": ">=18.0.0 <20.0.0"
@@ -45,12 +45,6 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.js",
       "default": "./dist/index.js"
-    },
-    "./generics": {
-      "types": "./dist/generics/index.d.ts",
-      "import": "./dist/generics/index.mjs",
-      "require": "./dist/generics/index.js",
-      "default": "./dist/generics/index.js"
     }
   },
   "repository": {
